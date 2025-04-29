@@ -39,55 +39,48 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 
 streamlit run streamlit/app.py
 ```
+
 📁 How to Use
 
-    Upload Candidate Resume (.pdf or .docx)
+    - Upload Candidate Resume (.pdf or .docx)
 
-    Upload Job Description (.pdf or .docx)
+    - Upload Job Description (.pdf or .docx)
 
-    Enter Candidate Email
+    - Enter Candidate Email
 
-    Click Evaluate Resume
+    - Click Evaluate Resume
 
 The app will:
 
-    Parse the documents
+    - Parse the documents
 
-    Run a contextual evaluation with LangChain
+    - Run a contextual evaluation with LangChain
 
-    Generate feedback
+    - Generate feedback
 
-    Compose and send a professional email automatically
+    - Compose and send a professional email automatically
 
 ⚙️ Behind the Scenes
 
-    ✅ Resume & JD Text Extraction: via pdfplumber and docx2txt
+    - ✅ Resume & JD Text Extraction: via pdfplumber and docx2txt
 
-    🔍 Vector Search: FAISS + Google Text Embedding (via text-embedding-004)
+    - 🔍 Vector Search: FAISS + Google Text Embedding (via text-embedding-004)
 
-    🧠 LLM Evaluation: Gemini 2.0 Flash model
+    - 🧠 LLM Evaluation: Gemini 2.0 Flash model
 
-    📡 RAG Architecture: LangChain retrieval + combine documents chain
+    - 📡 RAG Architecture: LangChain retrieval + combine documents chain
 
-    📬 Email Tool: Structured tool (LangChain agent) with smtplib
+    - 📬 Email Tool: Structured tool (LangChain agent) with smtplib
 
-    🎛️ Streamlit UI: For resume/jobdesc uploads and trigger
+    - 🎛️ Streamlit UI: For resume/jobdesc uploads and trigger
 
 📸 UI Preview
 
-    Clean and minimalistic Streamlit interface
+    - Clean and minimalistic Streamlit interface
 
-    Drag-and-drop resume/job description
+    - Drag-and-drop resume/job description
 
-    Email sent instantly with success message and balloons 🎈
-
-📜 License
-
-This project is open source under the MIT License.
-🤝 Contribution
-
-Feel free to fork the project and submit pull requests for improvements or feature ideas.
-👋 Contact
+    - Email sent instantly with success message and balloons 🎈
 
 📊 Datasets Used
 
@@ -109,6 +102,15 @@ This project utilizes publicly available datasets to test and demonstrate the re
     Usage: Used to test the job description parsing and matching features of the application.
 
 These datasets are instrumental in validating the application's ability to accurately assess resume and job description compatibility.
+
+📜 License
+
+This project is open source under the MIT License.
+🤝 Contribution
+
+Feel free to fork the project and submit pull requests for improvements or feature ideas.
+👋 Contact
+
 
 Developed by Mehmet Arslan
 📧 mr.arslan84@icloud.com
