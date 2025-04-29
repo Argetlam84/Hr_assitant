@@ -1,0 +1,13 @@
+pandas
+streamlit
+google-generativeai
+python-dotenv
+langchain
+faiss-cpu
+langchain-core
+langchain-google-genai==2.0.7
+langchain-text-splitters
+langsmith
+docx2txt 
+pdfplumber
+langchain_community
