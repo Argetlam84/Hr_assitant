@@ -44,45 +44,45 @@ streamlit run streamlit/app.py
 
 📁 How to Use
 
-    - Upload Candidate Resume (.pdf or .docx)
+- Upload Candidate Resume (.pdf or .docx)
 
-    - Upload Job Description (.pdf or .docx)
+- Upload Job Description (.pdf or .docx)
 
-    - Enter Candidate Email
+- Enter Candidate Email
 
-    - Click Evaluate Resume
+- Click Evaluate Resume
 
 The app will:
 
-    - Parse the documents
+- Parse the documents
 
-    - Run a contextual evaluation with LangChain
+- Run a contextual evaluation with LangChain
 
-    - Generate feedback
+- Generate feedback
 
-    - Compose and send a professional email automatically
+- Compose and send a professional email automatically
 
 ⚙️ Behind the Scenes
 
-    - ✅ Resume & JD Text Extraction: via pdfplumber and docx2txt
+- ✅ Resume & JD Text Extraction: via pdfplumber and docx2txt
 
-    - 🔍 Vector Search: FAISS + Google Text Embedding (via text-embedding-004)
+- 🔍 Vector Search: FAISS + Google Text Embedding (via text-embedding-004)
 
-    - 🧠 LLM Evaluation: Gemini 2.0 Flash model
+- 🧠 LLM Evaluation: Gemini 2.0 Flash model
 
-    - 📡 RAG Architecture: LangChain retrieval + combine documents chain
+- 📡 RAG Architecture: LangChain retrieval + combine documents chain
 
-    - 📬 Email Tool: Structured tool (LangChain agent) with smtplib
+- 📬 Email Tool: Structured tool (LangChain agent) with smtplib
 
-    - 🎛️ Streamlit UI: For resume/jobdesc uploads and trigger
+- 🎛️ Streamlit UI: For resume/jobdesc uploads and trigger
 
 📸 UI Preview
 
-    - Clean and minimalistic Streamlit interface
+- Clean and minimalistic Streamlit interface
 
-    - Drag-and-drop resume/job description
+- Drag-and-drop resume/job description
 
-    - Email sent instantly with success message and balloons 🎈
+- Email sent instantly with success message and balloons 🎈
 
 📊 Datasets Used
 
