@@ -167,6 +167,8 @@ def extract_text_from_docx(uploaded_file):
 
 # Streamlit UI
 st.title("HR Assistant - Resume Evaluation")
+st.write("This application focuses on assisting the human resources process. " \
+"It aims to speed up interactions for both job seekers and HR professionals.")
 
 resume_file = st.file_uploader("Upload Resume (PDF or DOCX)", type=["pdf", "docx"])
 jobdesc_file = st.file_uploader("Upload Job Description (PDF or DOCX)", type=["pdf", "docx"])
@@ -192,5 +194,5 @@ if resume_text and jobdesc_text:
             "If the candidate **is selected**, simply confirm selection."
         )
         evaluate_and_notify(candidate_email, combined_input)
-        st.write("Email sent successfully!")
+        st.success("Email has been successfully sent.")
         st.balloons()
