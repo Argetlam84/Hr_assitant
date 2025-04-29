@@ -38,7 +38,9 @@ SMTP_PASS=your_email_password
 GOOGLE_API_KEY=your_google_gemini_api_key
 
 streamlit run streamlit/app.py
+```
 
+---
 
 📁 How to Use
 
