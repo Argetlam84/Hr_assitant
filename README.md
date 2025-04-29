@@ -23,8 +23,8 @@ This project is a lightweight **Streamlit app** that assists HR professionals by
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hr-assistant.git
-cd hr-assistant
+git clone https://github.com/Argetlam84/Hr_assistant.git
+cd Hr_assistant
 
 python3 -m venv venv
 source venv/bin/activate  # or `venv\Scripts\activate` on Windows
@@ -38,7 +38,7 @@ SMTP_PASS=your_email_password
 GOOGLE_API_KEY=your_google_gemini_api_key
 
 streamlit run streamlit/app.py
-```
+
 
 📁 How to Use
 
